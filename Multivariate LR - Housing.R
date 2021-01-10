@@ -57,11 +57,6 @@ data %>%
 data.cor = cor(data)
 corrplot(data.cor,  method = "number")
 
-#preproc1 <- preProcess(data, method=c("range"))
-#data <- predict(preproc1, data)
-
-#data <- scale(dat)
-
 set.seed(123)
 
 
